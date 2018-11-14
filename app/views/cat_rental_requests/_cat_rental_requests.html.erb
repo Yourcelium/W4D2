@@ -1,0 +1,19 @@
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2"><%= Cat.find(request.cat_id).name %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Start Date</td>
+      <td><%= request.start_date %></td>
+    </tr>
+    <tr>
+      <td>End Date</td>
+      <td><%= request.end_date %></td>
+    </tr>
+
+  </tbody>
+</table>
